@@ -1,0 +1,5 @@
+--repo_env=CC=clang
+--repo_env=CXX=clang++
+build --crosstool_top=//toolchain:clang_suite
+build --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
+
